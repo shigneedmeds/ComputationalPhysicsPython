@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - numpy
-  - matplotlib
-  - jupyterlab
-  - ipympl   # For interactive plotting (used in some notebooks)
+  - numpy==2.2.4
+  - matplotlib==3.10.1
+  - jupyterlab==4.3.6
+  - ipympl==0.9.7   # For interactive plotting (used in some notebooks)
