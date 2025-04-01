@@ -74,7 +74,7 @@ Key Concepts:
 Learning Outcome:
 Understand how float precision affects memory usage and how floating-point numbers are stored in computer memory.
 
-⸻
+---
 
 ### 2. `numpy-vs-pytnon-structure.ipynb`
 
@@ -91,7 +91,7 @@ Key Concepts:
 Learning Outcome:
 Identify how NumPy optimises memory and understand the underlying differences between high-level and low-level array structures.
 
-⸻
+---
 
 ### 3. `kepler_dynamics.ipynb`
 
@@ -108,7 +108,7 @@ Key Concepts:
 Learning Outcome:
 Simulate celestial mechanics and study the dynamics of planetary motion using numerical solvers.
 
-⸻
+---
 
 ### 4. `Kepler_verlet.ipynb`
 
