@@ -125,7 +125,7 @@ Key Concepts:
 Learning Outcome:
 Apply the Verlet method to simulate planetary orbits with higher numerical stability and accuracy.
 
-￼## Week 3 Contents
+## Week 3 Contents
 
 ### 1. cpu-usage.ipynb
 **Topic:** CPU Usage and Profiling in Python  
