@@ -125,4 +125,36 @@ Key Concepts:
 Learning Outcome:
 Apply the Verlet method to simulate planetary orbits with higher numerical stability and accuracy.
 
-￼
+￼## Week 3 Contents
+
+### 1. cpu-usage.ipynb
+**Topic:** CPU Usage and Profiling in Python  
+**Description:**  
+This notebook introduces basic techniques for profiling code performance and measuring CPU usage in Python. It uses simple examples to show how computational cost grows with problem size, and how to optimise basic loops and array operations.
+
+**Key Concepts:**
+- Time complexity of algorithms
+- Measuring execution time using `time` and `timeit`
+- Performance difference between pure Python and NumPy
+- Introduction to profiling tools
+
+**Learning Outcome:**  
+Understand how to measure, profile, and optimise the performance of numerical code in Python.
+
+---
+
+### 2. expproblem_and_simplependulum.ipynb
+**Topic:** Exponential Problem and Simple Pendulum Dynamics  
+**Description:**  
+This notebook covers two classical examples: solving an exponential growth/decay problem and simulating a simple pendulum using numerical methods. It implements and compares different integration schemes, including Explicit Euler, Symplectic Euler, and RK4 for dynamic systems.
+
+**Key Concepts:**
+- Exponential growth and decay ODEs
+- Simple pendulum non-linear dynamics
+- Explicit Euler method
+- Symplectic Euler method
+- Runge-Kutta 4th order method (RK4)
+- Phase-space trajectory analysis
+
+**Learning Outcome:**  
+Apply and compare different numerical integration techniques to model exponential processes and non-linear mechanical systems like the simple pendulum.
