@@ -158,3 +158,40 @@ This notebook covers two classical examples: solving an exponential growth/decay
 
 **Learning Outcome:**  
 Apply and compare different numerical integration techniques to model exponential processes and non-linear mechanical systems like the simple pendulum.
+
+## Week 4 Contents
+
+### 1. `diffusion_ftcs.ipynb`
+
+**Topic**: Solving the 1D Diffusion Equation Using FTCS Scheme  
+**Description**:  
+This notebook implements the Forward Time Central Space (FTCS) scheme to solve the 1D diffusion equation numerically. It discusses stability criteria, visualises time evolution, and compares different discretisation settings to highlight their effect on numerical diffusion and stability.
+
+**Key Concepts**:
+- Parabolic partial differential equations (PDEs)  
+- Discretisation of the diffusion equation  
+- FTCS (Forward Time Central Space) finite difference scheme  
+- Stability condition: \( \Delta t \leq \frac{\Delta x^2}{2D} \)  
+- Heat propagation visualisation over time  
+
+**Learning Outcome**:  
+Understand and implement the FTCS method to solve time-dependent diffusion problems and analyse numerical stability constraints.
+
+
+## Week 5 Contents
+
+### 1. `advection.ipynb`
+
+**Topic**: Solving the 1D Linear Advection Equation  
+**Description**:  
+This notebook addresses the numerical solution of the 1D linear advection equation using finite difference methods. It investigates the performance and stability of schemes like FTCS and upwind differencing, and compares them through error analysis and animation of the propagating wave.
+
+**Key Concepts**:
+- Hyperbolic PDEs and wave propagation  
+- Numerical solution of the advection equation  
+- Upwind and FTCS schemes for advection  
+- CFL condition and numerical dispersion  
+- Visual comparison of exact and numerical solutions  
+
+**Learning Outcome**:  
+Learn how to implement numerical schemes for advection problems, analyse their stability, and evaluate physical fidelity in simulating wave transport.
